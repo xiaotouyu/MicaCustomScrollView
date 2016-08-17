@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042B8DB21D63F21C0043C2A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B8DB11D63F21C0043C2A0 /* main.m */; };
+		042B8DB51D63F21C0043C2A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B8DB41D63F21C0043C2A0 /* AppDelegate.m */; };
+		042B8DB81D63F21C0043C2A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B8DB71D63F21C0043C2A0 /* ViewController.m */; };
+		042B8DBB1D63F21C0043C2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B8DB91D63F21C0043C2A0 /* Main.storyboard */; };
+		042B8DBD1D63F21C0043C2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B8DBC1D63F21C0043C2A0 /* Assets.xcassets */; };
+		042B8DC01D63F21C0043C2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B8DBE1D63F21C0043C2A0 /* LaunchScreen.storyboard */; };
+		042B8DCB1D63F21C0043C2A0 /* MicaCustomScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B8DCA1D63F21C0043C2A0 /* MicaCustomScrollViewTests.m */; };
+		042B8DD61D63F21C0043C2A0 /* MicaCustomScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B8DD51D63F21C0043C2A0 /* MicaCustomScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042B8DC71D63F21C0043C2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042B8DA51D63F21C0043C2A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042B8DAC1D63F21C0043C2A0;
+			remoteInfo = MicaCustomScrollView;
+		};
+		042B8DD21D63F21C0043C2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042B8DA51D63F21C0043C2A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042B8DAC1D63F21C0043C2A0;
+			remoteInfo = MicaCustomScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042B8DAD1D63F21C0043C2A0 /* MicaCustomScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicaCustomScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B8DB11D63F21C0043C2A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042B8DB31D63F21C0043C2A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042B8DB41D63F21C0043C2A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042B8DB61D63F21C0043C2A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042B8DB71D63F21C0043C2A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042B8DBA1D63F21C0043C2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042B8DBC1D63F21C0043C2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042B8DBF1D63F21C0043C2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042B8DC11D63F21C0043C2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042B8DC61D63F21C0043C2A0 /* MicaCustomScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaCustomScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B8DCA1D63F21C0043C2A0 /* MicaCustomScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaCustomScrollViewTests.m; sourceTree = "<group>"; };
+		042B8DCC1D63F21C0043C2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042B8DD11D63F21C0043C2A0 /* MicaCustomScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaCustomScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B8DD51D63F21C0043C2A0 /* MicaCustomScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaCustomScrollViewUITests.m; sourceTree = "<group>"; };
+		042B8DD71D63F21C0043C2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042B8DAA1D63F21C0043C2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B8DC31D63F21C0043C2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B8DCE1D63F21C0043C2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042B8DA41D63F21C0043C2A0 = {
+			isa = PBXGroup;
+			children = (
+				042B8DAF1D63F21C0043C2A0 /* MicaCustomScrollView */,
+				042B8DC91D63F21C0043C2A0 /* MicaCustomScrollViewTests */,
+				042B8DD41D63F21C0043C2A0 /* MicaCustomScrollViewUITests */,
+				042B8DAE1D63F21C0043C2A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042B8DAE1D63F21C0043C2A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042B8DAD1D63F21C0043C2A0 /* MicaCustomScrollView.app */,
+				042B8DC61D63F21C0043C2A0 /* MicaCustomScrollViewTests.xctest */,
+				042B8DD11D63F21C0043C2A0 /* MicaCustomScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042B8DAF1D63F21C0043C2A0 /* MicaCustomScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				042B8DB31D63F21C0043C2A0 /* AppDelegate.h */,
+				042B8DB41D63F21C0043C2A0 /* AppDelegate.m */,
+				042B8DB61D63F21C0043C2A0 /* ViewController.h */,
+				042B8DB71D63F21C0043C2A0 /* ViewController.m */,
+				042B8DB91D63F21C0043C2A0 /* Main.storyboard */,
+				042B8DBC1D63F21C0043C2A0 /* Assets.xcassets */,
+				042B8DBE1D63F21C0043C2A0 /* LaunchScreen.storyboard */,
+				042B8DC11D63F21C0043C2A0 /* Info.plist */,
+				042B8DB01D63F21C0043C2A0 /* Supporting Files */,
+			);
+			path = MicaCustomScrollView;
+			sourceTree = "<group>";
+		};
+		042B8DB01D63F21C0043C2A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042B8DB11D63F21C0043C2A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042B8DC91D63F21C0043C2A0 /* MicaCustomScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				042B8DCA1D63F21C0043C2A0 /* MicaCustomScrollViewTests.m */,
+				042B8DCC1D63F21C0043C2A0 /* Info.plist */,
+			);
+			path = MicaCustomScrollViewTests;
+			sourceTree = "<group>";
+		};
+		042B8DD41D63F21C0043C2A0 /* MicaCustomScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042B8DD51D63F21C0043C2A0 /* MicaCustomScrollViewUITests.m */,
+				042B8DD71D63F21C0043C2A0 /* Info.plist */,
+			);
+			path = MicaCustomScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042B8DAC1D63F21C0043C2A0 /* MicaCustomScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B8DDA1D63F21C0043C2A0 /* Build configuration list for PBXNativeTarget "MicaCustomScrollView" */;
+			buildPhases = (
+				042B8DA91D63F21C0043C2A0 /* Sources */,
+				042B8DAA1D63F21C0043C2A0 /* Frameworks */,
+				042B8DAB1D63F21C0043C2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicaCustomScrollView;
+			productName = MicaCustomScrollView;
+			productReference = 042B8DAD1D63F21C0043C2A0 /* MicaCustomScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042B8DC51D63F21C0043C2A0 /* MicaCustomScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B8DDD1D63F21C0043C2A0 /* Build configuration list for PBXNativeTarget "MicaCustomScrollViewTests" */;
+			buildPhases = (
+				042B8DC21D63F21C0043C2A0 /* Sources */,
+				042B8DC31D63F21C0043C2A0 /* Frameworks */,
+				042B8DC41D63F21C0043C2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042B8DC81D63F21C0043C2A0 /* PBXTargetDependency */,
+			);
+			name = MicaCustomScrollViewTests;
+			productName = MicaCustomScrollViewTests;
+			productReference = 042B8DC61D63F21C0043C2A0 /* MicaCustomScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042B8DD01D63F21C0043C2A0 /* MicaCustomScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B8DE01D63F21C0043C2A0 /* Build configuration list for PBXNativeTarget "MicaCustomScrollViewUITests" */;
+			buildPhases = (
+				042B8DCD1D63F21C0043C2A0 /* Sources */,
+				042B8DCE1D63F21C0043C2A0 /* Frameworks */,
+				042B8DCF1D63F21C0043C2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042B8DD31D63F21C0043C2A0 /* PBXTargetDependency */,
+			);
+			name = MicaCustomScrollViewUITests;
+			productName = MicaCustomScrollViewUITests;
+			productReference = 042B8DD11D63F21C0043C2A0 /* MicaCustomScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042B8DA51D63F21C0043C2A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dashuios126;
+				TargetAttributes = {
+					042B8DAC1D63F21C0043C2A0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+					};
+					042B8DC51D63F21C0043C2A0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+						TestTargetID = 042B8DAC1D63F21C0043C2A0;
+					};
+					042B8DD01D63F21C0043C2A0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+						TestTargetID = 042B8DAC1D63F21C0043C2A0;
+					};
+				};
+			};
+			buildConfigurationList = 042B8DA81D63F21C0043C2A0 /* Build configuration list for PBXProject "MicaCustomScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042B8DA41D63F21C0043C2A0;
+			productRefGroup = 042B8DAE1D63F21C0043C2A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042B8DAC1D63F21C0043C2A0 /* MicaCustomScrollView */,
+				042B8DC51D63F21C0043C2A0 /* MicaCustomScrollViewTests */,
+				042B8DD01D63F21C0043C2A0 /* MicaCustomScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042B8DAB1D63F21C0043C2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B8DC01D63F21C0043C2A0 /* LaunchScreen.storyboard in Resources */,
+				042B8DBD1D63F21C0043C2A0 /* Assets.xcassets in Resources */,
+				042B8DBB1D63F21C0043C2A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B8DC41D63F21C0043C2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B8DCF1D63F21C0043C2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042B8DA91D63F21C0043C2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B8DB81D63F21C0043C2A0 /* ViewController.m in Sources */,
+				042B8DB51D63F21C0043C2A0 /* AppDelegate.m in Sources */,
+				042B8DB21D63F21C0043C2A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B8DC21D63F21C0043C2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B8DCB1D63F21C0043C2A0 /* MicaCustomScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042B8DCD1D63F21C0043C2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B8DD61D63F21C0043C2A0 /* MicaCustomScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042B8DC81D63F21C0043C2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042B8DAC1D63F21C0043C2A0 /* MicaCustomScrollView */;
+			targetProxy = 042B8DC71D63F21C0043C2A0 /* PBXContainerItemProxy */;
+		};
+		042B8DD31D63F21C0043C2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042B8DAC1D63F21C0043C2A0 /* MicaCustomScrollView */;
+			targetProxy = 042B8DD21D63F21C0043C2A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042B8DB91D63F21C0043C2A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B8DBA1D63F21C0043C2A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042B8DBE1D63F21C0043C2A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B8DBF1D63F21C0043C2A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042B8DD81D63F21C0043C2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042B8DD91D63F21C0043C2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042B8DDB1D63F21C0043C2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicaCustomScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaCustomScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042B8DDC1D63F21C0043C2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicaCustomScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaCustomScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		042B8DDE1D63F21C0043C2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicaCustomScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaCustomScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicaCustomScrollView.app/MicaCustomScrollView";
+			};
+			name = Debug;
+		};
+		042B8DDF1D63F21C0043C2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicaCustomScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaCustomScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicaCustomScrollView.app/MicaCustomScrollView";
+			};
+			name = Release;
+		};
+		042B8DE11D63F21C0043C2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicaCustomScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaCustomScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicaCustomScrollView;
+			};
+			name = Debug;
+		};
+		042B8DE21D63F21C0043C2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicaCustomScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaCustomScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicaCustomScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042B8DA81D63F21C0043C2A0 /* Build configuration list for PBXProject "MicaCustomScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B8DD81D63F21C0043C2A0 /* Debug */,
+				042B8DD91D63F21C0043C2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042B8DDA1D63F21C0043C2A0 /* Build configuration list for PBXNativeTarget "MicaCustomScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B8DDB1D63F21C0043C2A0 /* Debug */,
+				042B8DDC1D63F21C0043C2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042B8DDD1D63F21C0043C2A0 /* Build configuration list for PBXNativeTarget "MicaCustomScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B8DDE1D63F21C0043C2A0 /* Debug */,
+				042B8DDF1D63F21C0043C2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042B8DE01D63F21C0043C2A0 /* Build configuration list for PBXNativeTarget "MicaCustomScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B8DE11D63F21C0043C2A0 /* Debug */,
+				042B8DE21D63F21C0043C2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042B8DA51D63F21C0043C2A0 /* Project object */;
+}
